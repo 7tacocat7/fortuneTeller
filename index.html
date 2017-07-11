@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet"  type="text/css">
+    <link href="css/styles.css" rel="stylesheet" text="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Fortune teller</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <h2>Fortuneteller Survey</h2>
+      </div>
+      <div class="well">
+        <form id="fortune">
+          <div class="form-group">
+            <p>
+              In the past week check how many unlucky events have occured in your life?
+            </p> <br>
+            <input type="checkbox" name="unluckyEvent" value="cat">Crossed paths with a black cat<br>
+            <input type="checkbox" name="unluckyEvent" value="ladder">Walked under a latter<br>
+            <input type="checkbox" name="unluckyEvent" value="mirror">Broke a mirror<br>
+            <input type="checkbox" name="unluckyEvent" value="ladd">Walked under a latter<br>
+            <input type="checkbox" name="unluckyEvent" value="omen">Saw a bad omen<br>
+          </div>
+          <div class="form-group">
+            <p>
+                In the past week check how many lucky events have occured in your life?
+            </p> <br>
+            <input type="checkbox" name="luckyEvent" value="clover">Found a four leave clover<br>
+            <input type="checkbox" name="luckyEvent" value="found">Found money on the ground<br>
+            <input type="checkbox" name="luckyEvent" value="ladybug">A ladybug landed on your shoulder<br>
+            <input type="checkbox" name="luckyEvent" value="rainbow">You witnessed a double rainbow<br>
+          </div>
+          <div class="well">
+            <button type="submit">Submit Survey</button>
+          </div>
+        </form>
+        <span id="unluckyEvent">
+          <p>
+            <br>
+            Based on these unlucky events, it is clear that you are going to have difficulties in your love life.
+          </p>
+        </span>
+        <span id="luckyEvent">
+          <p>
+            <br>
+            Based on these lucky events, it is clear that you are going to have great fortune in your love life!
+          </p>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
